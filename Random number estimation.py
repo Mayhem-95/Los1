@@ -14,7 +14,7 @@ print(random_value)
 while user_estimation != random_value:
     print(user_estimation)
     user_estimation = (int(input("Guess again: ")))
-    random_value=(random.randint(1, 10))
+    random_value=(random.randint(1, 100))
     random_value=int(random_value)
     print(random_value)
     if user_estimation > random_value:
